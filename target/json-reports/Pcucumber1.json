@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-02T20:48:13.711Z",
+        "line": 4,
+        "name": "Wifi Programlama",
+        "description": "",
+        "id": "android;wifi-programlama",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48000971600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Preference tiklanir",
+            "match": {
+              "location": "AppiumTest.stepdefination.WifiStepDefinations.preference_tiklanir()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 825684000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Preference dependencies tiklanir",
+            "match": {
+              "location": "AppiumTest.stepdefination.WifiStepDefinations.preference_dependencies_tiklanir()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1977665400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "WiFi check box aktif edilir.",
+            "match": {
+              "location": "AppiumTest.stepdefination.WifiStepDefinations.wifi_check_box_aktif_edilir()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2547840600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Wifi Settings tiklanir",
+            "match": {
+              "location": "AppiumTest.stepdefination.WifiStepDefinations.wifi_Settings_tiklanir()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 238812200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Gelen ekrana \"Cok sükür Appium Bitti\" yazilir ve OK tiklanir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cok sükür Appium Bitti\"",
+                  "offset": 13
+                }
+              ],
+              "location": "AppiumTest.stepdefination.WifiStepDefinations.gelen_ekrana_yazilir_ve_OK_tiklanir(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wifi"
+          }
+        ]
+      }
+    ],
+    "name": "Android",
+    "description": "",
+    "id": "android",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Android.feature",
+    "tags": [
+      {
+        "name": "@wifi",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
